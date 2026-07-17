@@ -1,3 +1,21 @@
+/*
+	String Functions
+	- Manipulation -> CONCAT, UPPER, LOWER, TRIM, REPLACE
+	- Calculation -> LEN/LENGTH
+	- String Extraction -> LEFT, RIGHT, SUBSTRING
+
+	Function Definitions
+	CONCAT -> Combine multiple string into one
+	UPPER  -> Converts all characters to uppercase
+	LOWER  -> Converts all characters to lowercase
+	TRIM   -> Removes leading and trailling spaces
+	REPLACE-> Replaces specific character with a new character
+	LENGTH -> Counts how many characters(Any data type)
+	LEFT   -> Extracts specific numbers of characters from start
+	RIGHT  -> Extracts specific numbers of characters from end
+	SUBSTRING -> Extracts a part of string at specifed position
+*/
+
 -- CONCAT, LOWER, UPPER FUNCTION
 -- Show a list of customer's first names together with their country in one column.
 -- Transfrom the customer's first name to lowercase
@@ -38,6 +56,7 @@ SELECT
 	RIGHT(first_name, 2) last_2_char
 FROM customers;
 
+-- SUBSTRING FUNCTION
 -- Retrieve a list of customer's first names after removing the first character.
 SELECT 
 	first_name,
